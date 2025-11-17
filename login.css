@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #272323;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Τίτλος */
+#page-title {
+    font-size: 55px;
+    color: #75d47a;
+    text-align: center;
+    margin: 150px 0 50px 0; 
+    letter-spacing: 2px;
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: fadeInTitle 4s ease forwards;
+}
+
+@keyframes fadeInTitle {
+    from { opacity: 0; transform: translateY(-10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Login box */
+.login-container {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background: #2f3136;
+    padding: 35px;
+    width: 330px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+
+    background: #40444b;
+    border: 2px solid #555;
+    border-radius: 8px;
+
+    color: white;
+    font-size: 15px;
+
+    box-sizing: border-box;
+}
+
+#password{
+    background: #40444b;
+}
+
+#username{
+    background: #40444b;
+}
+
+
+input:focus {
+    outline: none;
+    border-color: #84ea86;
+    box-shadow: 0 0 8px #6bed85;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+#loginbutton {
+    width: 50%;
+    padding: 7px; 
+
+    margin-top: 12px;
+
+    background: #75d47a;
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+
+    transition: 1s ease;
+    
+}
+
+#loginbutton:hover {
+    background: #00fa47;
+}
+
+#errorMsg {
+    color: #f04b4b;
+    margin-top: 15px;
+    font-size: 14px;
+}

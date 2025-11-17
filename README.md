@@ -58,9 +58,8 @@ This project is a web-based interface for a currency and cryptocurrency converte
 - Take a screenshot of the console to verify login attempts and timestamp logs.
 - The frontend is fully static and requires a backend server (e.g., Spring Boot) to connect with the Java logic for real conversions.
 
-## Screenshots
-
+## Screenshots 
 (screenshot of the console showing login attempts here)
-<img width="1861" height="793" alt="image" src="https://github.com/user-attachments/assets/6f897b51-549f-41d4-a678-6e2963b0b557" />
-![Uploading image.png…]()
+<img width="1861" height="1079" alt="image" src="https://github.com/user-attachments/assets/c3e0099e-9fdd-4934-b21b-a3fc0d07dc4c" />
+
 
